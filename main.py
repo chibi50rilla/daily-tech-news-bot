@@ -38,8 +38,8 @@ def main():
     site_emoji = "🟢" if article["site"] == "Qiita" else "🔵"
     message = {
         "text": (
-            f"☀️ **【今朝のおすすめ記事 ({site_emoji} {article['site']})】**\n\n"
-            f"📖 **{article['title']}**\n"
+            f"☀️ *【今朝のおすすめ記事 ({site_emoji} {article['site']})】*\n\n"
+            f"📖 *{article['title']}*\n"
             f"🔗 {article['url']}\n\n"
             "💬 *コメントやスタンプでリアクションしてみましょう！！*"
         )
