@@ -3,7 +3,7 @@ name: Daily Tech Article Bot
 on:
   schedule:
     # 平日（月〜金）の朝8:30 JST（UTC基準で前日23:30）に自動実行
-    - cron: '30 23 * * 1-5'
+    - cron: '30 21 * * 0-4'
   workflow_dispatch: # 手動実行ボタンもそのまま残す
 
 jobs:
