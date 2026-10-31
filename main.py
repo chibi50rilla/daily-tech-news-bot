@@ -2,6 +2,9 @@ import os
 import random
 import feedparser
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def get_qiita_article():
     """Qiitaから人気記事（ストック数30以上）を1件取得"""
